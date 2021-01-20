@@ -13,8 +13,6 @@ minetest.register_globalstep(function()
                 block = false
             end
             
-            if obj:is_player() ~= true then print(obj:get_name()) end
-
             if obj:get_item_textures() == "mcl_bows:arrow_box.png" then
                 block = false
             end
